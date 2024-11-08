@@ -1,0 +1,49 @@
+.barGraph {
+  padding-bottom: 60px;
+}
+
+.horizontalAxis {
+  height: 12px;
+  background: var(--palette-5);
+  position: relative;
+  box-shadow: 5px 5px 0 var(--palette-3);
+  border-radius: 6px;
+}
+
+.bars {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.barWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  .value {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .bar {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+    height: calc(100% - 1em);
+    background: var(--palette-5);
+    box-shadow: 5px 5px 0 var(--palette-3);
+  }
+}
+
+.labels {
+  display: flex;
+  justify-content: space-evenly;
+  .label {
+    white-space: pre;
+    top: 16px;
+    position: relative;
+    transform: rotate(60deg);
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    "sourceMap": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "kaiku",
+    "moduleResolution": "node",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "target": "ESNext",
+    "resolveJsonModule": true
+  }
+}
